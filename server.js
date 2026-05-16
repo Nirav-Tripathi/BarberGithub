@@ -4,7 +4,7 @@ const cheerio = require("cheerio");
 
 const app = express();
 
-const TARGET = "https://eagle-dojo-flow.base44.app";
+const TARGET = "https://royal-clip-studio.base44.app";
 
 // 🔥 Proxy EVERYTHING (assets, js, css, api, etc.)
 app.use(async (req, res) => {
